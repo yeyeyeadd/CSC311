@@ -1,0 +1,45 @@
+\usepackage{latexsym}              % symbols
+\usepackage{amsmath}               % great math stuff
+\usepackage{amssymb}               % great math symbols
+\usepackage{amsfonts}              % for blackboard bold, etc
+\usepackage{amsthm}                % for theorems
+\usepackage{graphicx}              % for insert graph
+\usepackage{listings}              % for code block
+
+\lstset{frame=tb,
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny,
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\F}{\mathbb{F}}
+
+\renewcommand{\vert}{\,|\,}
+\newcommand{\mb}{\textbf}
+\newcommand{\norm}[2]{\|{#1}\|_{#2}}
+\newcommand{\normm}[1]{\|#1\|}
+\newcommand{\bmat}[1]{\begin{bmatrix} #1 \end{bmatrix}}
+\newcommand{\pmat}[1]{\begin{pmatrix} #1 \end{pmatrix}}
+\newcommand{\eqtext}[1]{\hspace{3mm} \text{#1} \hspace{3mm}}
+\newcommand{\set}[1]{\{#1\}}
+\newcommand{\inn}[2]{\langle #1, #2 \rangle}
+\newcommand{\ra}{\rightarrow}
+\newcommand{\Ra}{\Rightarrow}
+\newcommand{\tx}[1]{\text{{#1}}}
+\newcommand{\abs}[1]{|#1|}
+\newcommand{\bigO}{\mathcal{O}}
+% \newcommand{\det}{\text{det}}
+\DeclareMathOperator{\E}{\mathbb{E}}

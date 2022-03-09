@@ -1,0 +1,3 @@
+Average log-likelihood for MAP is  -3.3570631378602855
+Training accuracy for MAP is  0.8352166666666667
+Test accuracy for MAP is  0.816
